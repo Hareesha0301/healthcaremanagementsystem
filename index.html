@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main id = "mainHome">
+        <div class="homepageBox">
+            <div>
+                <h1>Support</h1>
+            </div>
+            <div>
+                <p>Please enter the details of the caller below as per the appointment. If the caller has no appointment in the system, please dont enter the details.</p>
+            </div>
+            <div>
+                <label for="" id = "homepageBtn1" >Appointment ID :</label>
+                <input type="text" name="" placeholder="Enter Appointment ID here." required>
+            </div>
+            <div>
+                <div id = "callDeatilsLabel">
+                    <label for="" id = "callDeatilsLabel">Call details :</label>
+                </div>
+                <div>
+                    <textarea name="text" id = "callDeatils" placeholder="Enter call details here." required></textarea>
+                </div>
+                
+            </div>
+            <div class="buttonGroup">
+                <div>
+                    
+                    <Button id = "homepageBtn2" onclick = "location.href = 'patientHomePage.html';">Submit</Button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>

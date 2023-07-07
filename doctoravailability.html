@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href=".\styles.css">
+  </head>
+  <body>
+  <main>
+    <form id="docavailapp" action="">
+        <div id="docavailpage">
+            <div id="headerLabel"><p> Doctor's availability</p></div>
+            <table id = "appointtable">
+                <tr id = "headtable">
+                  <td>Select</td>
+                  <td>FirstName</td>
+                  <td>Lastname</td>
+                  <td>Email</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name = "doctorId" value = ""></td>
+                  <td><label>Doctor First Name</label></td>
+                  <td><label >Doctor Last Name</label></td>
+                  <td><label>Doctor Email</label></td>
+                </tr>
+              </table>
+              <div id="bookappointId">
+                <input type="button" onclick= "location.href = 'appointmentdetails.html';" id="bookappointbtn" name="Bookappointment" value="Book an Appointment"> 
+            </div>
+        </div>
+    </form>
+  </main>
+	<script src="index.js"></script>
+  </body>
+</html>

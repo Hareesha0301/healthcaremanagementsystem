@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+        <main> 
+            <form id="newAppMain" action="">
+                <div id = "newapppage">
+                    <div id="topLabel"><p> Fill the below details</p></div>
+                    <div id="fnameLabel"><label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" required></div>
+                    <div id="lnameLabel"><label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" required></div>
+                    <div id="ageLabel"><label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="1" max="100"></div>
+                    <div id="emailLabel"><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required> </div>
+                    <div id="phoneLabel"><label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" required></div>
+                    <div id="specializationLabel"> 
+                        <label for="specialization">Choose specialization:</label>
+                        <select name = "specialization" id="specialization" required>
+                            <option value="" selected disabled hidden></option>
+                            <option value="Cardiologist">Cardiologist</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="General Physcian">General Physcian</option>
+                            <option value="Orthopedic Surgeon">Orthopedic Surgeon</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                        </select>
+                    </div> 
+                    <div id="descriptionLabel">
+                        <label for="description">Describe your issue: </label>
+                        <textarea id="descriptionTextArea" name="descriptionTextArea" form = "newAppMain"></textarea> 
+                    </div>
+                    <div id="submitBtnId">
+                        <input type="submit" id="submitBtn" name="viewDoctors" value="View Doctors">  
+                    </div>                    
+                </div>
+            </form>
+        </main>
+	<script src="index.js"></script>
+  </body>
+</html>

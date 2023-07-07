@@ -1,0 +1,290 @@
+
+/*body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,202,153,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/*index*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.homepageBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.buttonGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+
+#homepageBtn1{
+    margin-right: 30px;
+    padding: 12px 28px;
+}
+
+#homepageBtn2{
+    margin-left: 30px;
+    padding: 12px 28px;
+}
+
+/*patientHomePage*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+#patHomPag{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#viewAppButton{
+
+    margin-bottom: 15px;
+    padding: 12px 28px;
+    
+}
+#newAppButton{
+
+    margin-top: 15px;
+    padding: 12px 28px;
+
+}
+
+/*New Appointment*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+#newapppage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: flex-start;
+    border: 3px solid black;
+}
+
+#topLabel,#fnameLabel,#lnameLabel,#ageLabel,#emailLabel,#phoneLabel,#specializationLabel,#descriptionLabel,#submitBtnId{
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#topLabel{
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+}
+#submitBtnId{
+    align-self: center;
+    margin-top: 4%;
+}
+
+textarea{
+    width: 100%;
+}
+
+/*Doctor availabilty*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+
+#docavailpage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#headerLabel{
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+}
+
+#appointtable {
+    border-collapse: collapse;
+}
+th,td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+#bookappointId{
+    align-self: center;
+    margin-top: 15%;
+}
+
+/*appointment details*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+#appointdetail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    border: 3px solid black;
+}
+#appointmain1{
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#homepage1{
+    align-self: center;
+    margin-top: 15%;
+}
+
+#appointmain{
+    padding: 12px 28px;
+    font-size: 150%;
+    font-weight: bold;
+    color: blue
+}
+
+/*doctor Home page*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+#docHomPagid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#usernamelabel{
+    
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#passLabel{
+    
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/*Patientsdetails*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+#patdetailpage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#detailLabel{
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+}
+
+#patdetpage {
+    
+    border-collapse: collapse;
+}
+th,td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+#bookedviewid{
+    align-self: center;
+    margin-top: 15%;
+}
+
+
+#patappointdetail{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    border: 3px solid black;
+
+}
+
+#appDetailsCss{
+    padding-top: 3%;
+}
+
+#roomsdet{
+    padding-top: 5%;
+}
+
+#roomCss,#assistantCSS{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+#roomValueCss,#assistantValueCSS{
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+#callDeatils{
+    margin-top: 0%;
+    margin-left: 58%;
+}
+
+#callDeatilsLabel{
+    margin-top: 20%;
+    margin-left: -20%;
+}
